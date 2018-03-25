@@ -27,16 +27,16 @@ if (file_exists(dirname(__FILE__) . '/local.php')) {
 	define('DB_HOST', 'localhost');
 } else {
 	// online db settings
-	define('DB_NAME', 'threestrikes');
-	define('DB_USER', 'root');
+	define('DB_NAME', 'davec622_fictional_university');
+	define('DB_USER', 'davec622_davec12');
 	define('DB_PASSWORD', '123456');
 	define('DB_HOST', 'localhost');
 }
 
-define('DB_NAME', 'fictional_university');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '123456');
-define('DB_HOST', 'localhost');
+// define('DB_NAME', 'fictional_university');
+// define('DB_USER', 'root');
+// define('DB_PASSWORD', '123456');
+// define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
